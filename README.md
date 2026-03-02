@@ -1,23 +1,20 @@
-# Introduction to GitHub
+# Introduction to Programming/DevOps
 
 <img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
 Hi, I'm Maletho 👋🏽
 
-🌱 Aspiring Software / Network Engineer  
-💻 Learning HTML, CSS, JavaScript & React  
-📡 Interested in Networking & Infrastructure  
-🎯 Building projects to land a tech role
+And in this repo we'll be exploring the concepts in Programming/DevOps and how AI could advance the tracking, managing and securing the code.   
 
 ## Tech Stack
-- HTML5
-- CSS3
+- Cursor
+- Claude
 - JavaScript
-- React, Next.js and TypeScript (learning)
-- Git & GitHub
+- React, Next.js, TypeScripts, MongoDB
+- OpenAI API
 
-## Currently Working On
-- Portfolio website
-- Beginner React projects
+## Types of works operated on
+- Portfolio and mainly E-commerce websites
+- Maintain and support the intent, correctness, cleanliness and the scalabilty of the code
 - Networking labs (CCNA-style)
 
 ---
