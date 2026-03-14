@@ -1,6 +1,5 @@
 # Introduction to Programming/DevOps
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
 Hi, I'm Maletho 👋🏽
 
 And in this repo we'll be exploring the concepts in Programming/DevOps and how AI could advance the tracking, managing and securing the code.   
