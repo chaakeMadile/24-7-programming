@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV by Jade</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: bisque;
+        }
+        form {
+            padding: 20% 20%;
+            font-size: medium;
+            color: black;
+        }
+    </style>
+   
+    <body>
+        <h1>Login</h1>
+        <form action="/login" method="post">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username"><br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password"><br><br>
+            <input type="submit" value="Login">
+        </form>
+
+        <script>
+            function handleLogin(event)  {
+                event.preventDefault(); // Prevent the default form submission
+
+                const formData = new FormData(event.target);
+                const username = formData.get('username');
+                const password = formData.get('password');
+
+                // Here you can add your authentication logic
+                if (username === 'admin' && password === 'password') {
+                    alert('Login successful!');
+                    // Redirect to another page or perform other actions
+                } else {
+                    alert('Invalid username or password. Please try again.');
+                }
+            }
+        </script>
+    </body>
+</html>
