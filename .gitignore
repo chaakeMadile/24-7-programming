@@ -1,3 +1,18 @@
+mkdir java web assets docs
+
+git mv frameportfolio/Learn.java java/Learn.java
+git mv frameportfolio/Login.html web/frameportfolio/Login.html
+git mv frameportfolio/MainPage.html web/frameportfolio/MainPage.html
+git mv frameportfolio/Systems web/frameportfolio/systems
+git mv images assets/images
+git mv steps docs/steps
+git mv "JS collections" web/js-collections
+
+# safe to delete — confirmed duplicate of .github/workflows
+git rm -r workflows
+
+git commit -m "Restructure repo by language/purpose"
+git push
 # Compiled source #
 ###################
 *.com
