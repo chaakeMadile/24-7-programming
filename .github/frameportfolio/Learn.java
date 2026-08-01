@@ -1,4 +1,4 @@
-public class Learner {
+class Learner {
     public void forget() {
         // Implementation of forget method
     }
