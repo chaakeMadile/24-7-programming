@@ -11,7 +11,7 @@
         form {
             padding: 20% 20%;
             font-size: medium;
-            color: rgba(0, 0, 0, 0.007);
+            color: white;
         }
     </style>
    
@@ -35,7 +35,8 @@
 
                 // Here you can add your authentication logic
                 if (username === 'admin' && password === 'password') {
-                    alert('Login successful!');
+                    alert('Login successful!')
+                    window.location.href = 'MainPage.html';
                     // Redirect to another page or perform other actions
                 } else {
                     alert('Invalid username or password. Please try again.');
