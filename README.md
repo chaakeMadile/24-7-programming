@@ -15,7 +15,3 @@ And in this repo we'll be exploring the concepts in Programming/DevOps and how A
 - Portfolio and mainly E-commerce websites
 - Maintain and support the intent, correctness, cleanliness and the scalabilty of the code
 - Networking labs (CCNA-style)
-
----
-
-
