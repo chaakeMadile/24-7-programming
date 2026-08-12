@@ -1,0 +1,21 @@
+Frontend
+HTML
+CSS
+JavaScript
+
+        ↓
+
+Backend
+Node.js
+Express
+
+        ↓
+
+Authentication
+bcrypt
+Sessions / JWT
+
+        ↓
+
+Database
+MongoDB
