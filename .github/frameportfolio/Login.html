@@ -17,7 +17,7 @@
    
     <body>
         <h1>Login</h1>
-        <form action="/login" method="post">
+        <form id="loginForm"> method="post">
             <label for="username">Username:</label><br>
             <input type="text" id="username" name="username"><br><br>
             <label for="password">Password:</label><br>
@@ -26,22 +26,22 @@
         </form>
 
         <script>
-            function handleLogin(event)  {
-                event.preventDefault(); // Prevent the default form submission
+             document.getElementById("loginForm").addEventListener("submit", handleLogin);
 
-                const formData = new FormData(event.target);
-                const username = formData.get('username');
-                const password = formData.get('password');
+                function handleLogin(event) {
+                event.preventDefault();
 
-                // Here you can add your authentication logic
-                if (username === 'admin' && password === 'password') {
-                    alert('Login successful!')
-                    window.location.href = 'MainPage.html';
-                    // Redirect to another page or perform other actions
+                const username = document.getElementById("username").value;
+                const password = document.getElementById("password").value;
+
+                if (username === "admin" && password === "password") {
+                alert("Login successful!");
+
+                window.location.href = "MainPage.html";
                 } else {
-                    alert('Invalid username or password. Please try again.');
-                }
-            }
-        </script>
+                alert("Invalid username or password.");
+        }
+    }
+</script>
     </body>
 </html>
